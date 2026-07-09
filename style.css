@@ -23,6 +23,7 @@ body{
     background: #faf4f4;
     padding: 18px 0;
     
+    
 }
 
 .navbar .container{
@@ -100,7 +101,7 @@ body{
     margin-bottom: 40px;
 }
 
-/*seeker */
+/*speaker */
 
 .speakers{
     padding: 100px 0;
@@ -128,7 +129,6 @@ body{
     background: #ffffff;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
-    transition: 0.3s;
 }
 
 
@@ -200,7 +200,6 @@ body{
 .pricing-card h5{
     color: #6b7280;
     font-size: 13px;
-    letter-spacing: 1px;
     margin-bottom: 10px;
 }
 
@@ -226,7 +225,6 @@ body{
 .pricing-card ul li{
     color: #4b5563;
     margin-bottom: 12px;
-    line-height: 1.6;
 }
 
 .pricing-card .btn-primary{
@@ -367,15 +365,8 @@ footer-content ul{
     color: #2563eb;
 }
 
-ul{
-    gap: 20px;
-}
+
 .footer-content h3{
     color: #0870f0;
-}
-.footer-content ul{
-    display: flex;
-    justify-content: end;
-    gap: 20px;
-
+    font-size: 16px;
 }
