@@ -127,7 +127,6 @@ body{
 .speaker-card{
     background: #ffffff;
     border-radius: 12px;
-    overflow: hidden;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
     transition: 0.3s;
 }
@@ -161,7 +160,7 @@ body{
 }
 
 
-/*prcing */
+/*pricing */
 
 .pricing{
     padding: 100px 0;
@@ -211,16 +210,12 @@ body{
     margin-bottom: 5px;
 }
 
-.pricing-card small{
-    color: #6b7280;
-    display: block;
-    margin-bottom: 20px;
-}
 
 .pricing-card hr{
     border: none;
     border-top: 1px solid #e5e7eb;
     margin-bottom: 25px;
+    margin-top: 20px;
 }
 
 .pricing-card ul{
@@ -242,7 +237,6 @@ body{
 
 .featured{
     background: #111827;
-    color: #ffffff;
 }
 
 .featured h2,
@@ -342,6 +336,8 @@ body{
     padding: 16px 38px;
     font-size: 17px;
 }
+/* 
+footer section */
 
 footer{
     background-color: #0f172a
