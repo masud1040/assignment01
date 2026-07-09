@@ -16,10 +16,6 @@ body{
     margin: 0 auto;
 }
 
-button{
-    border: none;
-    cursor: pointer;
-}
 
 
 
@@ -65,6 +61,8 @@ button{
     border-radius: 8px;
     font-size: 15px;
     font-weight: 600;
+    border: none;
+    cursor: pointer;
 }
 
 
@@ -92,7 +90,7 @@ button{
 }
 
 .hero-content h1{
-    font-size: 68px;
+    font-size: 48px;
     margin-bottom: 20px;
 }
 
@@ -199,18 +197,6 @@ button{
     
 }
 
-.pricing-card:hover{
-    background: #0f172a;
-    color: white;
-    
-}
-.pricing-card:hover h2,
-.pricing-card:hover h3,
-.pricing-card:hover h5,
-.pricing-card:hover small,
-.pricing-card:hover li{
-    color: #fff;
-}
 
 .pricing-card h5{
     color: #6b7280;
@@ -261,11 +247,22 @@ button{
 
 .featured h2,
 .featured h5,
-.featured small,
+.featured h6,
 .featured ul li{
     color: #ffffff;
 }
 
 .featured hr{
     border-top: 1px solid rgba(255,255,255,.2);
+}
+.btn-secondery{
+    padding: 14px 30px;
+    background: #ffffff;
+    color: #362adb;
+    border: 2px solid rgb(65, 65, 224);
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 300px;
 }
