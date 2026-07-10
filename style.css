@@ -70,7 +70,10 @@ body{
 
 .hero{
     height: 650px;
-    background-image:  url("image/banner.jpg");
+    background-image:
+       linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+        url("image/banner.jpg");
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
